@@ -1,0 +1,22 @@
+What is a VCS
+What is git
+What is a repository
+git config -- setting name and email
+git init
+make some files, add only some
+git status (showing files unstaged, staged)
+git diff (, git diff --cached)
+What is a commit
+git commit
+(Create a few commits to get a small log to work on)
+git log 
+git show
+git revert
+git reset
+git checkout
+
+Tell them about services like github, gitlab, etc.
+Then make sure everyone has a github account, and show them how to create a repository and push
+Then show them how they can view the log in the commits tab, check what a commit changed, etc.
+How to edit and commit files online directly.
+How to clone a repository from github or pull into an existing local repository
