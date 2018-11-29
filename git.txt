@@ -1,16 +1,34 @@
-What is a VCS
-What is git
-What is a repository
+What is a VCS?
+A version control system is a software to manage a project by having all the different versions of your files saved
+Some examples are git, mercurial (hg), subversion (svn)
+
+What is git?
+git is a VCS developed by Linus Torvalds for the development of the Linux Kernel, in 2005
+
+What is a repository?
+Basically another name for a project
+A repository can have as many files/folders as you want
+All git data is stored in repositories
+
+git commands - 
 git config -- setting name and email
-git init
+git init -- initializing a repository
 make some files, add only some
 git status (showing files unstaged, staged)
 git diff (, git diff --cached)
-What is a commit
-git commit
+What is a commit?
+Basically like a save
+Can also consider it a snapshot of various states in your git repository
+Can by identified by its unique hash
+
+Make a commit
+Browse directory at previous commit
+Git status at bash
+
+git commit (Explain -a, -m flags)
 (Create a few commits to get a small log to work on)
-git log 
-git show
+git log (Show some flags like --author, --committer, --oneline)
+git show (git show to show current HEAD, git show <sha> to show a certain commit)
 git revert
 git reset
 git checkout
