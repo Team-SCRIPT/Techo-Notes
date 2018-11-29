@@ -20,3 +20,18 @@ Then make sure everyone has a github account, and show them how to create a repo
 Then show them how they can view the log in the commits tab, check what a commit changed, etc.
 How to edit and commit files online directly.
 How to clone a repository from github or pull into an existing local repository
+
+ksdfg:
+make a repo online
+what a remote is
+  Basically another name for a project
+  A repository can have multiple files
+push repo on hub
+add files, upload files
+commit history, browse files at previous commit
+pull repo onto bash
+go to hub, make a branch, make some change
+pull repo first, show no branch in git branch, then pull branch
+go to github, start a pull request from branch
+clone - bash guys: revert commit
+fork me and make a pull request
