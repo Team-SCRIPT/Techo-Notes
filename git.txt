@@ -1,25 +1,29 @@
-What is a VCS?
+### What is a VCS?
 A version control system is a software to manage a project by having all the different versions of your files saved
 Some examples are git, mercurial (hg), subversion (svn)
 
-What is git?
-git is a VCS developed by Linus Torvalds for the development of the Linux Kernel, in 2005
+### What is git?
+Git is a VCS developed by Linus Torvalds for the development of the Linux Kernel, in 2005
 
-What is a repository?
+### What is a repository?
 Basically another name for a project
 A repository can have as many files/folders as you want
 All git data is stored in repositories
 
-git commands - 
+### git commands - 
 git config -- setting name and email
 git init -- initializing a repository
-make some files, add only some
+
+Make some files, add only some
+
 git status (showing files unstaged, staged)
 git diff (, git diff --cached)
-What is a commit?
+
+### What is a commit?
 Basically like a save
 Can also consider it a snapshot of various states in your git repository
 Can by identified by its unique hash
+A commit can be revereted back to run back in previous state of repository.
 
 Make a commit
 Browse directory at previous commit
@@ -32,6 +36,20 @@ git show (git show to show current HEAD, git show <sha> to show a certain commit
 git revert
 git reset
 git checkout
+
+### Git and GitHub
+1) Clone repository on your local machine by using:
+   git clone <repository-link>
+2) Edit the file and save it.
+3) Stage the file for commit using 
+   git add . (Here "." means to stage all the files you have added/changed. Specofy file name if you
+   wish to add stage a specific file(s).
+4) Commit changes using
+   git commit -m "<Commit Message>"
+5) Push the commited changes from your local machine to GitHub using:
+   git push -u origin (Here -u means "upstream" and origin means the origin repository which you cloned from GitHub)
+6) When working on a repository with multiple contributors, everytime on a new session,
+   use "git pull origin" to load the changes commited by other contributors in your local machine.
 
 Tell them about services like github, gitlab, etc.
 Then make sure everyone has a github account, and show them how to create a repository and push
